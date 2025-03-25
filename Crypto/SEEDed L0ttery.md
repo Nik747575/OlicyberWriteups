@@ -21,26 +21,11 @@
   Prendendo come esempio il numero <code>23</code>, possiamo rigenerare la stessa chiave per poi fare XOR inverso.
 </p>
 
-<h2 style="font-size: 20px;">SOLVE:</h2>
+<p style="font-size: 16px;">La solve si trova nel file <code class="language-python">"solve.py"</code></p>
 
-<pre style="background-color: #f4f4f4; padding: 10px; border-radius: 5px; font-size: 14px; overflow-x: auto;">
-<code class="language-python">
-import random, binascii
-
-def xor(key, data):
-    res = bytearray()
-    for i in range(len(data)):
-        res.append(data[i] ^ key[i % len(key)])
-    return res
-
-def decrypt(seed, encrypted_hex):
-    random.seed(seed)
-    key = random.getrandbits(32).to_bytes(4, "big")
-    encrypted_bytes = bytes.fromhex(encrypted_hex)
-    return xor(key, encrypted_bytes).decode()
-
-seed = 23
-ciphertext = "8aaf996b9790cb69889cc97fb38dc878b3f69753bef79668dcaea7388af49d5eb382c93dcdbe"
-print("FLAG:", decrypt(seed, ciphertext))
-</code>
-</pre>
+<!-- Aggiungi Prism.js per evidenziazione della sintassi -->
+<head>
+  <link href="https://cdn.jsdelivr.net/npm/prismjs@1.25.0/themes/prism.css" rel="stylesheet" />
+  <script src="https://cdn.jsdelivr.net/npm/prismjs@1.25.0/prism.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/prismjs@1.25.0/components/prism-python.min.js"></script>
+</head>
