@@ -24,7 +24,8 @@
 <h2 style="font-size: 20px;">SOLVE:</h2>
 
 <pre style="background-color: #f4f4f4; padding: 10px; border-radius: 5px; font-size: 14px; overflow-x: auto;">
-<code class="language-python">import random, binascii
+<code class="language-python">
+import random, binascii
 
 def xor(key, data):
     res = bytearray()
