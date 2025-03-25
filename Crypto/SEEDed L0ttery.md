@@ -24,7 +24,8 @@
 <h2 style="font-size: 20px;">SOLVE:</h2>
 
 <pre style="background-color: #f4f4f4; padding: 10px; border-radius: 5px; font-size: 14px; overflow-x: auto;">
-<code style="color: #d63384;">import random, binascii
+<code class="language-python">
+import random, binascii
 
 def xor(key, data):
     res = bytearray()
@@ -40,5 +41,6 @@ def decrypt(seed, encrypted_hex):
 
 seed = 23
 ciphertext = "8aaf996b9790cb69889cc97fb38dc878b3f69753bef79668dcaea7388af49d5eb382c93dcdbe"
-print("FLAG:", decrypt(seed, ciphertext))</code>
+print("FLAG:", decrypt(seed, ciphertext))
+</code>
 </pre>
