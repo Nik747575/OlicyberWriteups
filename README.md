@@ -15,7 +15,8 @@ Le varie challenge avranno varie tipologie:
 - `network`  
 - `crypto`  
 - `web`  
-- `binary`  
+- `binary` 
+- `osint` 
  
 
 che saranno divise nella corrispondenti cartelle
