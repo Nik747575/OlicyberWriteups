@@ -8,7 +8,8 @@
   <strong>Forza Cagliari!!</strong></a>
 </p>
 
-<img src="Fotochallenge/Cagliari.png" alt="Stemma">
+<center><img src="https://raw.githubusercontent.com/Nik747575/OlicyberWriteups/main/Fotochallenge/Cagliari.png" alt="Stemma" height="130" width="110.5" ></center>
+
 
 
 <p style="font-size: 15px;">
