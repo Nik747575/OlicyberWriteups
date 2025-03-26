@@ -7,9 +7,6 @@
 <p style="font-size: 15px;">
   Ok dai, l'aiuto a questa ci sta (se sei daltonico)<br>
   La challenge ci da un file gif 
-  <span style="border: 1px solid #888; padding: 3px 6px; border-radius: 4px; background-color: #333; color: #fff;">
-    bel paesaggio.gif
-  </span>
   <br>
   I file gif sono frame che si ripetono in un loop, quindi è molto probabile che la flag è contenuta in un frame dell'immagine.<br>
   Utilizzando tool come <a href="https://ezgif.com/split">Ezgif</a>, è possibile uploadare un gif per visualizzarne i frame e, caricando la gif che ci viene data dalla challenge, troviamo la flag in uno dei frame.
